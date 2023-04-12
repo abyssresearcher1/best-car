@@ -1,0 +1,169 @@
+/* @media screen and (max-width:1200px) {
+    .rent-car__block {
+        padding: 5%;
+        padding-left: 7%;
+        gap: 50px;
+    }
+
+    .rent-car {
+        padding: 6%;
+        width: 488px;
+        height: 450px;
+    }  
+
+    .rent-car img {
+        width: 488px;
+        height: 450px;
+    }  
+
+    .rent-car__button {
+        margin-top: 400px;
+        margin-left: 345px;
+    }
+
+    .rent-car__button img {
+        width: 15px;
+        height: 15px;
+    }
+    .other-services {
+        margin-left: 8%;
+    }
+    
+    .other-services__block {
+        width: 320px;
+        gap: 22px;
+    }
+
+    .other-services__block img {
+        width: 320px;
+    }
+} */
+
+@media screen and (max-width:992px) {
+    .rent-car {
+        width: 388px;
+        height: 390px;
+    } 
+
+    .rent-car__button {
+        margin-top: 340px;
+        margin-left: 10%;
+    }
+
+    .other-services-block {
+        gap: 15px;
+    }
+
+    .other-services__block img {
+        width: 255px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .block__rent-car h2 {
+        font-size: 30px;
+    }
+
+    .rent-car {
+        width: 290px;
+        height: 300px;
+    } 
+
+    .rent-car h3 {
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .rent-car__button {
+        margin-top: 250px;
+        margin-left: -40px;
+    }
+
+    .rent-car__button p {
+        font-size: 20px;
+    }
+
+    .rent-car__button img {
+        width: 12px;
+        height: 12px;
+    }
+/* 
+    .other-services {
+        padding-left: 3%;
+    } */
+
+    .other-services h2 {
+        font-size: 30px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .other-services__block img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .other-services__block h3 {
+        font-size: 15px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .other-services__block p {
+        width: 100%;
+        font-size: 10px;
+        line-height: 18px;
+    }
+} 
+
+@media screen and (max-width:576px) {
+    .rent-car__block {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .rent-car {
+        width: 450px;
+        height: 450px;
+    }
+
+    .rent-car__button {
+        margin-top: 390px;
+        margin-left: 120px;
+    }
+
+    .car2 {
+        grid-column: 1/2;
+    }
+
+    .car3 {
+        grid-area: 3/1/4/2;
+    }
+
+    .car4 {
+        grid-area: 4/1/5/2;
+    }
+
+    .other-services-block {
+        flex-wrap: wrap;
+    }
+
+    .other-services__block {
+        width: 350px;
+        height: 500px;
+        margin-left: 50px;
+    }
+
+    .other-services__block img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .other-services__block h3 {
+        font-size: 30px;
+    }
+
+    .other-services__block p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
