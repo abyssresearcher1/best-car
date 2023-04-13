@@ -140,6 +140,115 @@ h1{
     align-items: center;
 }
 
+.PopularDestination img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #000;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Destination {
+    padding: 20px 0;
+    letter-spacing: 0.006em;
+    text-align: center;
+color: white;
+font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 64px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.PopularDestination {
+    background-color: black;
+}
+.Block__London {
+    height: 100%;
+margin-top: 10%;
+}
+
+.name {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.006em;
+    color: #FFFFFF;
+}
+.location {
+    color: #FFFFFF;
+    letter-spacing: 0.0041em;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.8;
+}
+.cost {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0041em;
+color: #FFFFFF;
+}
+.search {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+     letter-spacing: 0.0041em;
+     color: #EE8313;
+}
+.allblocks {
+    padding: 5%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.locationMap {
+    width: 100%;
+    padding-top: 162px;
+    height: 892px;
+    background-color: black;
+}
+.loc {
+    font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 64px;
+text-align: center;
+letter-spacing: 0.006em;
+color: #FFFFFF;
+}
+.map iframe{
+    margin: 10% 0;
+height: 500px;
+    width: -webkit-fill-available;
+}
+
 .mustang{
     width: 100%;    
 }
@@ -241,4 +350,5 @@ h1{
     font-size: 16px;
     line-height: 28px;
     color: #FFFFFF;
+    text-align: center;
 }

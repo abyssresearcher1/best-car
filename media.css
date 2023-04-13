@@ -1,8 +1,19 @@
+@media screen and (max-width:1200px){
+    .Destination 
+{font-size: 40px;}
+}
+
 @media screen and (max-width:992px){
     h1{
         font-size: 45px;
         line-height: 40px;
     }
+    .Destination 
+    {font-size: 30px;}
+
+    .locationMap
+     {margin-bottom: 2%;
+    padding-top: 2%;}
 }
 
 @media screen and (max-width:768px){
@@ -19,6 +30,22 @@
         padding-bottom: 5%;
         gap: 200px;
     }
+
+    .Destination 
+    { font-size: 25px;}
+
+    .Block__London
+     {padding-left: 10px;
+        margin: 4px;}
+
+    .map iframe 
+    {height: 400px;}
+
+    .locationMap
+     {padding-top: 2%;
+        height: 600px;}
+
+        
 }
 
 @media screen and (max-width:576px){
@@ -53,11 +80,40 @@
         flex-direction: row;
         gap: 100px;
     }
+
+    .allblocks {
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: repeat(3, 1fr);}
+         .Destination
+          {font-size: 25px;
+                height: 120px;}
+            .locationMap 
+            { height: 600px;}
+            .loc
+            { padding-top: 8%;
+            font-size: 25px;}
+            .name 
+            {font-family: 'Be Vietnam Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 32px;
+                letter-spacing: 0.006em;
+                color: #FFFFFF;
+            }
+        
+            .map iframe 
+            {   height: 300px;}
 }
 
 @media screen and (max-width:320px){
     .header{
         height: 300px;
+    }
+
+    .PopularDestination{
+        margin-bottom: 1000px;
     }
 
     .header__nav{
@@ -91,5 +147,24 @@
         flex-direction: column;
         gap: 0;
     }
+
+    .Block__London {
+        padding-left: 0;
+        margin: 0;}
+.allblocks 
+{ display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .PopularDestination 
+    {height: 1600px;}
+    .Destination {
+        line-height: 37px;
+        font-size: 20px;
+    }
+    
+    .map iframe
+     {  height: 250px;
+        width: -webkit-fill-available; }
 
 }
