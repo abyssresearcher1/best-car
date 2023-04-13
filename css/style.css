@@ -109,7 +109,7 @@ letter-spacing: 0.006em;
 color: #FFFFFF;
 }
 .map iframe{
-    margin: 40px 120px 102px;
-    width: 1000px;
-    height: 524px;
+    margin: 10% 0;
+height: 500px;
+    width: -webkit-fill-available;
 }

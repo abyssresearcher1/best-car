@@ -1,113 +1,78 @@
 @media screen and (max-width:1200px) {
-  
-
-    .Destination {
-        font-size: 40px;
-    }
-
-    .map iframe {
-        margin-left: 8%;
-    }
+.Destination 
+{font-size: 40px;}
 }
 
 @media screen and (max-width: 992px) {
-    .Destination {
-        font-size: 30px;
-    }
+    .Destination 
+    {font-size: 30px;}
 
-    .locationMap {
-        margin-bottom: 2%;
-        padding-top: 2%;
-    }
-
-    .map iframe {
-        margin-left: 9%;
-        width: 800px;
-        height: 424px;
-    }
+    .locationMap
+     {margin-bottom: 2%;
+    padding-top: 2%;}
 }
 
 @media screen and (max-width: 768px) {
-    .Destination {
-        font-size: 25px;
-       
-    }
+    .Destination 
+    { font-size: 25px;}
 
-    .Block__London {
-        padding-left: 10px;
-        margin: 4px;
-    }
+    .Block__London
+     {padding-left: 10px;
+        margin: 4px;}
 
-    .locationMap {
-        padding-top: 2%;
-        height: 600px;
-    }
+    .map iframe 
+    {height: 400px;}
 
-    .map iframe {
-        margin-left: 9%;
-        width: 630px;
-        height: 324px;
-    }
+    .locationMap
+     {padding-top: 2%;
+        height: 600px;}
 }
-@media screen and (max-width: 576px) {
-    .allblocks {
-        padding-left: 20px;
-        display: grid;
-      
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-    .Destination{
-        font-size: 25px;
-        height: 120px;
-    }
-    .locationMap {
-        height: 600px;
-    }
-.loc {
-padding-top: 8%;
-font-size: 25px;
-}
-    .map iframe {
-        margin-left: 10%;
-        width: 450px;
-        height: 300px;
-    }
-    .name {
-        font-family: 'Be Vietnam Pro';
+
+@media screen and (max-width: 576px) 
+{
+.allblocks {
+display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-rows: repeat(3, 1fr);}
+ .Destination
+  {font-size: 25px;
+        height: 120px;}
+    .locationMap 
+    { height: 600px;}
+    .loc
+    { padding-top: 8%;
+    font-size: 25px;}
+    .name 
+    {font-family: 'Be Vietnam Pro';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 32px;
         letter-spacing: 0.006em;
         color: #FFFFFF;
+    }
+
+    .map iframe 
+    {   height: 300px;}
 }
 
-}
 @media screen and (max-width: 320px) {
-.Block__London {
-   padding-left: 0;
-   margin: 0;
-}
-    .allblocks {
-        padding-left: 40px;
-        display: grid;
+    .Block__London {
+        padding-left: 0;
+        margin: 0;}
+.allblocks 
+{ display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
     }
-    .PopularDestination {
-        height: 1600px;
-        
-    }
-    .map iframe {
-        margin-left: 13%;
-        width: 300px;
-        height: 300px;
-    }
+    .PopularDestination 
+    {height: 1600px;}
     .Destination {
         line-height: 37px;
         font-size: 20px;
     }
-    .loc {padding-left: 60px;}
+    .loc { padding-left: 60px; }
 
-}
+    .map iframe
+     {  height: 250px;
+        width: -webkit-fill-available; }}
