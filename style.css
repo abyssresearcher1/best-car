@@ -36,6 +36,7 @@ h1{
 .nav__choice{
     display: flex;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .nav__choice a{
@@ -80,6 +81,7 @@ h1{
 
 .general{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .general__info{
@@ -107,6 +109,7 @@ h1{
 .general__underbtn{
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .under-button__text{
@@ -132,91 +135,110 @@ h1{
 .header__img{
     width: 50%;
     background: rgba(52, 52, 52, 0.3);
-}
-
-.header__img img{
-    width: 100%;
-}
-
-.pre__footer{
-    padding: 7%;
-    background: #1F1905;
-}
-
-.footer__general{
     display: flex;
-    gap: 200px;
+    justify-content: end;
+    align-items: center;
+}
+
+.mustang{
+    width: 100%;    
+}
+
+.pre-footer{
+    background-color: #1F1905;
+}
+
+.general-pre-footer{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .footer__logo{
     display: flex;
-    flex-direction: column;
-    color: white;
+    align-items: center;
     gap: 17px;
-}
-
-.footer__logo img{
-    width: 48px;
-}
-
-.footer__dubling{
-    color: white;
-}
-
-.footer__general p{
-    padding-top: 5%;
-    color: #FFFFFF; 
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
+    flex-wrap: wrap;
 }
 
 .footer__info{
     display: flex;
-    justify-content: flex-end;
-    color: white;
-    gap: 50px;
+    flex-direction: column;
+    gap: 70px;
     flex-wrap: wrap;
 }
 
-.footer__list{
+.footer__contacts{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+
+}
+
+.pre-footer__contacts{
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 32px;
+    flex-wrap: wrap;
+
 }
 
-.footer__list span{
+.footer__info{
+    color: #FFFFFF;
+}
+
+.footer__logo p{
+    color: #FFFFFF;
+}
+
+.pre-footer__contacts span{
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700;   
     font-size: 18px;
     line-height: 20px;
+    color:  #FFFFFF;
 }
 
-.footer__list a{
-    color: white;
+.pre-footer__contacts a{
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 20px;  
     text-decoration: none;
+    color: #FFFFFF;
     opacity: 0.8;
 }
 
 .icons{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    flex-wrap: wrap;
+
 }
 
-.footer__reserves{
-    display: flex;
-    height: 50px;
+.icons img{
+    width: 100px;
+}
+
+.footer{
+    height: 70px;
     background: #EE8313;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.footer p{
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
 }
