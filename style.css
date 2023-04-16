@@ -18,6 +18,11 @@ h1{
 .container{
     max-width: 1200px;
 }
+    .carmin{
+        display: flex; 
+        height: 25px;
+    }
+
 
 .conatiner__header{
     max-width: 1350px;
@@ -208,13 +213,17 @@ margin-top: 10%;
     opacity: 0.8;
 }
 .cost {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.0041em;
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .search {
     font-family: 'Be Vietnam Pro';
