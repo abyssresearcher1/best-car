@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -17,6 +17,7 @@ h1{
 
 .container{
     max-width: 1200px;
+    width: 100%;
 }
     .carmin{
         display: flex; 
@@ -36,7 +37,7 @@ h1{
 
 .header__nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;    
     padding-top: 2%;
@@ -87,6 +88,7 @@ h1{
     background-color: #000000;
     color: #FFFFFF;
     max-width: 100%;
+    display: flex;
 }
 
 .general{
@@ -110,10 +112,7 @@ h1{
 }
 
 .header__buttons{
-    display: flex;
-    gap: 40px;
     padding-bottom: 7%;
-    flex-wrap: wrap;
 }
 
 .general__underbtn{
@@ -150,6 +149,151 @@ h1{
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+.block__rent-car {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block__rent-car h2 {
+    font-family: 'Be Vietnam Pro';
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 50px;
+}
+
+.general__rent-car {
+    display: flex;
+    gap: 22px;
+}
+
+.rent-car__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.rent-car {
+    width: 100%;
+    position: relative;
+}
+
+.rent-car img {
+    width: 100%;
+    display: flex;
+}
+
+.rent-car__init{
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.006em;
+    position: absolute;
+    font-size: 30px;
+    top: 10%;
+    left: 10%;
+}
+
+.rent-car__button a {
+    display: flex;
+}
+
+.rent-car__button p {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.006em;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+}
+
+.rent-car__button p::after{
+    content: '';
+    background-image: url(./images/arrow_right.svg);
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    right: -15px;
+}
+
+.rent-car__button img {
+    margin: 8px;
+    width: 15px;
+    height: 20px;
+}
+
+.other-services__block{
+    width: 27%;
+}
+
+.other-services-block img{
+    width: 100%;
+}
+
+.general-services__block{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.other-services h2 {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0.006em;
+    margin: 60px 0px 60px 0px;
+    color: white;
+    text-align: center;
+}
+
+.other-services-block {
+    display: flex;
+    gap: 22px;
+}
+
+.other-services__block h3 {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.006em;
+    color: white;
+    padding: 15px 0px 15px 0px;
+}
+
+.other-services__block p {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.006em;
+    width: 80%;
+    height: 15%;
+    color: #FFFFFF;
+}
+
 .PopularDestination img {
     width: 100%;
 }
@@ -160,12 +304,6 @@ a {
 
 body {
     background: #000;
-}
-
-.container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 .Destination {
