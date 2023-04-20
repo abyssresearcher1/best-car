@@ -1,6 +1,36 @@
 @media screen and (max-width:1200px){
     .Destination 
 {font-size: 40px;}
+
+        .general-pre-footer{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:1055px){
+    h1{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .general__rent-car{
+        width: 90%;
+    }
+
+    .rent-car__init{
+        font-size: 25px;
+        top: 9%;
+        left: 9%;
+    }
+
+    .rent-car__button p{
+        left: 60%;
+    }
+
+    .footer__contacts{
+        gap: 40px;
+    }
 }
 
 @media screen and (max-width:992px){
@@ -10,10 +40,51 @@
     }
     .Destination 
     {font-size: 30px;}
+}
 
-    .locationMap
-     {margin-bottom: 2%;
-    padding-top: 2%;}
+@media screen and (max-width:880px){
+    h1{
+        font-size: 38px;
+    }
+
+    .general__underbtn{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .allblocks{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:786px){
+    .footer__info{
+        gap: 20px;
+    }
+
+    .header__info{
+        flex-direction: column;
+    }
+
+    .general__info{
+        width: 100%;
+    }
+
+    .header__img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:769px){
+    .locationMap{
+        height: 710px;
+    }
+
+    .header__nav{
+        align-items: flex-start;
+        padding-left: 7%;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -23,6 +94,17 @@
 
     h1{
         font-size: 34px;
+        padding-bottom: 2%;
+        padding-top: 3%;
+    }
+
+    .header__nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .general__info p{
+        padding-bottom: 5%;
     }
 
     .footer__info{
@@ -41,11 +123,34 @@
     .map iframe 
     {height: 400px;}
 
-    .locationMap
-     {padding-top: 2%;
-        height: 600px;}
+    .locationMap{
+     height: 710px;
+ }
 
+ .general-services__block{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .other-services__block{
+    width: 70%;
+ }
+
+ .footer__info{
+    gap: 40px;
+ }
         
+}
+
+@media screen and (max-width:625px){
+     .icons{
+        gap: 0;
+     }   
+
+     .footer__contacts{
+        gap: 30px;
+     }
 }
 
 @media screen and (max-width:576px){
@@ -78,7 +183,7 @@
     .icons{
         display: flex;
         flex-direction: row;
-        gap: 100px;
+        gap: 40px;
     }
 
     .allblocks {
@@ -105,6 +210,12 @@
         
             .map iframe 
             {   height: 300px;}
+}
+
+@media screen and (max-width:481px){
+    .icons{
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width:320px){

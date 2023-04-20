@@ -47,7 +47,6 @@ h1{
 .nav__choice{
     display: flex;
     gap: 48px;
-    flex-wrap: wrap;
 }
 
 .nav__choice a{
@@ -173,6 +172,8 @@ a {
 .general__rent-car {
     display: flex;
     gap: 22px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rent-car__block {
@@ -243,7 +244,7 @@ a {
     width: 27%;
 }
 
-.other-services-block img{
+.other-services__block img{
     width: 100%;
 }
 
@@ -252,6 +253,7 @@ a {
     gap: 24px;
     justify-content: center;
     max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .other-services h2 {
@@ -289,8 +291,6 @@ a {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.006em;
-    width: 80%;
-    height: 15%;
     color: #FFFFFF;
 }
 
@@ -307,7 +307,7 @@ body {
 }
 
 .Destination {
-    padding: 20px 0;
+    padding-top: 6%;
     letter-spacing: 0.006em;
     text-align: center;
 color: white;
@@ -321,6 +321,7 @@ line-height: 64px;
 .block {
     display: flex;
     flex-direction: column;
+    background: #131313;
 }
 
 .PopularDestination {
@@ -373,12 +374,13 @@ margin-top: 10%;
      color: #EE8313;
 }
 .allblocks {
-    padding: 5%;
+    padding: 0 5% 0 5%;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
+
 .locationMap {
     width: 100%;
     padding-top: 162px;
@@ -412,9 +414,10 @@ height: 500px;
 .general-pre-footer{
     padding: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 200px;
 }
 
 .footer__logo{
@@ -433,7 +436,7 @@ height: 500px;
 
 .footer__contacts{
     display: flex;
-    gap: 80px;
+    gap: 50px;
     flex-wrap: wrap;
 
 }
@@ -478,11 +481,15 @@ height: 500px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
 }
 
-.icons img{
-    width: 100px;
+.icons a{
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 64px;
+    color: #FFFFFF;
 }
 
 .footer{
@@ -495,12 +502,16 @@ height: 500px;
 
 }
 
-.footer p{
+.footer__info p{
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #FFFFFF;
+    text-align: center;
+}
+
+.footer{
     text-align: center;
 }
